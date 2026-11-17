@@ -5,6 +5,8 @@ name: Calidad PR
 on:
   pull_request:
     branches: [main]
+    paths:
+      - 'ejercicios/M04-05-puerta-de-calidad/**'
   push:
     branches: [main]
 
